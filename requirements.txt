@@ -1,0 +1,34 @@
+# --- Core Deep Learning Framework ---
+# PyTorch 2.x is required for efficient Apple Silicon (MPS) support
+torch>=2.1.0
+torchvision>=0.16.0
+
+# --- Transformers & Models ---
+# Required for loading the Meta AI DinoV2 model
+transformers>=4.35.0
+huggingface-hub>=0.19.0
+
+# --- Data Processing & Math ---
+# Essential for matrix operations and metric calculations
+numpy>=1.24.0
+scikit-learn>=1.3.0
+pandas>=2.1.0
+
+# --- Image Processing ---
+# Standard library for opening and resizing images
+Pillow>=10.0.0
+
+# --- Visualization & Reporting ---
+# Used for generating confusion matrices, ROC curves, and charts
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Deployment & Export (ONNX) ---
+# Required for converting the model to run on edge devices
+onnx>=1.15.0
+onnxruntime>=1.16.0
+
+# --- Utilities ---
+# Progress bars and system utilities
+tqdm>=4.66.0
+requests>=2.31.0
