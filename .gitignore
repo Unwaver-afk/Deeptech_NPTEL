@@ -21,6 +21,3 @@ onnx/
 *.onnx.data
 
 data/dataset.zip
-
-!data/sample_wafers/
-
