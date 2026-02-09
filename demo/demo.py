@@ -12,7 +12,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.inference import DefectPredictor
 
 # Configuration
-TEST_DATA_DIR = "data/test"
+TEST_DATA_DIR = "data/dataset/test"
 ASSETS_DIR = os.path.join("demo", "assets")
 CLEAN_DIR = os.path.join(ASSETS_DIR, "accepted")
 DEFECT_DIR = os.path.join(ASSETS_DIR, "rejected")
